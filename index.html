@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>QVeeNote — voice health log</title>
+<meta name="description" content="Just say it. A private, on-device health log for Android: meals, medicines, symptoms, readings and activity, spoken in your own words. Nothing leaves your phone.">
+<link rel="icon" href="favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#fbf9f3}
+a{color:#2f6333}a:hover{color:#14201a}
+@media (max-width:640px){h1{font-size:64px !important}h2{font-size:34px !important}h3{font-size:30px !important}}
+</style>
+</head>
+<body>
+<div style="width: 100%; min-height: 100%; background: #fbf9f3; color: #14201a; font-family: 'DM Sans', Arial, sans-serif; box-sizing: border-box; display: flex; flex-direction: column">
+
+  <header style="width: 100%; box-sizing: border-box; padding: 20px 24px; border-bottom: 1px solid #e4e0d4">
+    <nav style="max-width: 1160px; margin: 0 auto; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px 32px" aria-label="Main">
+      <a href="#top" style="display: flex; align-items: center; gap: 12px; text-decoration: none; color: #14201a">
+        <img src="assets/mark.png" alt="" style="height: 36px; width: auto">
+        <span style="font-size: 22px; font-weight: 700; letter-spacing: -0.01em">QVeeNote</span>
+      </a>
+      <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px 28px; font-size: 16px; font-weight: 500">
+        <a href="#how" style="text-decoration: none; color: #4f5c55">How it works</a>
+        <a href="#privacy" style="text-decoration: none; color: #4f5c55">Privacy</a>
+        <a href="#more" style="text-decoration: none; color: #4f5c55">What it does</a>
+        <a href="support.html" style="text-decoration: none; color: #4f5c55">Support</a>
+        <a href="beta.html" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 20px; border-radius: 999px; background: #38793a; color: #ffffff; text-decoration: none; font-weight: 700">Join the beta</a>
+      </div>
+    </nav>
+  </header>
+
+  <section id="top" style="width: 100%; box-sizing: border-box; padding: 88px 24px 72px">
+    <div style="max-width: 1160px; margin: 0 auto; display: flex; flex-wrap: wrap; align-items: center; gap: 48px 72px">
+      <div style="flex: 1 1 440px; min-width: 0; display: flex; flex-direction: column; gap: 28px">
+        <p style="margin: 0; font-size: 15px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #38793a">A voice-first health log for Android</p>
+        <h1 style="margin: 0; font-size: 92px; line-height: 0.98; font-weight: 700; letter-spacing: -0.03em">Just say it.</h1>
+        <p style="margin: 0; font-size: 24px; line-height: 1.4; color: #4f5c55; max-width: 34ch">Hold a button, say what happened, let go. QVeeNote turns the sentence into a health record — on your phone, and only your phone.</p>
+        <div style="display: flex; flex-wrap: wrap; gap: 14px">
+          <a href="beta.html" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 26px; border-radius: 999px; background: #38793a; color: #ffffff; text-decoration: none; font-size: 18px; font-weight: 700">Join the beta</a>
+          <a href="#how" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 26px; border-radius: 999px; border: 1.5px solid #14201a; color: #14201a; text-decoration: none; font-size: 18px; font-weight: 700">See how it works</a>
+        </div>
+        <p style="margin: 0; font-size: 15px; color: #4f5c55">No account. No cloud. No internet permission.</p>
+      </div>
+
+      <div style="flex: 1 1 440px; min-width: 0; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 20px">
+        <figure style="margin: 0; flex: 1 1 260px; min-width: 0; display: flex; flex-direction: column; gap: 14px">
+          <div style="display: flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #4f5c55">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#38793a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"></rect><path d="M5 11a7 7 0 0 0 14 0"></path><path d="M12 18v3"></path></svg>
+            You say
+          </div>
+          <blockquote style="margin: 0; padding: 26px 28px; background: #ffffff; border: 1px solid #e4e0d4; border-radius: 24px 24px 24px 6px; font-size: 24px; line-height: 1.4; font-weight: 500; color: #14201a">“Took my blood pressure tablet, my blood pressure was one twenty three over seventy five and a pulse of seventy.”</blockquote>
+          <div style="display: flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #4f5c55">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#38793a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="M13 6l6 6-6 6"></path></svg>
+            QVeeNote finds three things and asks you to check them
+          </div>
+        </figure>
+        <div style="flex: 0 0 300px; box-sizing: border-box; padding: 10px; background: #ffffff; border: 1px solid #e4e0d4; border-radius: 30px; box-shadow: 0 24px 60px rgba(20,32,26,0.12)">
+          <img src="assets/confirm.jpg" alt="Confirm screen: Found 3 things — micardis taken, blood pressure 123/75 mmHg, pulse 70 bpm, Save 3" style="display: block; width: 100%; height: auto; border-radius: 22px">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="how" style="width: 100%; box-sizing: border-box; padding: 88px 24px; background: #ffffff; border-top: 1px solid #e4e0d4">
+    <div style="max-width: 1160px; margin: 0 auto; display: flex; flex-direction: column; gap: 40px">
+      <div style="display: flex; flex-direction: column; gap: 12px; max-width: 760px">
+        <p style="margin: 0; font-size: 15px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #38793a">How it works</p>
+        <h2 style="margin: 0; font-size: 44px; line-height: 1.1; font-weight: 700; letter-spacing: -0.02em">Three steps. One of them is talking.</h2>
+      </div>
+      <ol style="list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 32px">
+        <li style="flex: 1 1 300px; min-width: 0; display: flex; flex-direction: column; gap: 14px; padding: 28px; border: 1px solid #e4e0d4; border-radius: 20px; background: #fbf9f3">
+          <span style="display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 50%; background: #38793a; color: #ffffff; font-size: 20px; font-weight: 700">1</span>
+          <h3 style="margin: 0; font-size: 24px; font-weight: 700">Hold and speak</h3>
+          <p style="margin: 0; font-size: 17px; line-height: 1.5; color: #4f5c55">One big button. Hold it, say what happened in your own words — meals, medicines, symptoms, readings, activity — and let go. A quiet voice is fine.</p>
+        </li>
+        <li style="flex: 1 1 300px; min-width: 0; display: flex; flex-direction: column; gap: 14px; padding: 28px; border: 1px solid #e4e0d4; border-radius: 20px; background: #fbf9f3">
+          <span style="display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 50%; background: #38793a; color: #ffffff; font-size: 20px; font-weight: 700">2</span>
+          <h3 style="margin: 0; font-size: 24px; font-weight: 700">Check the cards</h3>
+          <p style="margin: 0; font-size: 17px; line-height: 1.5; color: #4f5c55">Every word it heard is shown, with a card for each thing it found. Fix a word, split a card, or tell it what something is — it remembers for next time.</p>
+        </li>
+        <li style="flex: 1 1 300px; min-width: 0; display: flex; flex-direction: column; gap: 14px; padding: 28px; border: 1px solid #e4e0d4; border-radius: 20px; background: #fbf9f3">
+          <span style="display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 50%; background: #38793a; color: #ffffff; font-size: 20px; font-weight: 700">3</span>
+          <h3 style="margin: 0; font-size: 24px; font-weight: 700">Save</h3>
+          <p style="margin: 0; font-size: 17px; line-height: 1.5; color: #4f5c55">Nothing is stored until you tap Save. Then it sits on your timeline at the time it happened — “yesterday at eight” lands on yesterday at eight.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="privacy" style="width: 100%; box-sizing: border-box; padding: 88px 24px; background: #14201a; color: #fbf9f3">
+    <div style="max-width: 1160px; margin: 0 auto; display: flex; flex-direction: column; gap: 40px">
+      <div style="display: flex; flex-direction: column; gap: 12px; max-width: 760px">
+        <p style="margin: 0; font-size: 15px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #85ad44">Privacy</p>
+        <h2 style="margin: 0; font-size: 44px; line-height: 1.1; font-weight: 700; letter-spacing: -0.02em">Built on privacy first.<br><span style="color: #85ad44">Nothing leaves your phone.</span></h2>
+        <p style="margin: 0; font-size: 20px; line-height: 1.5; color: #c9d1c6">Not the recordings, not the words, not the records. QVeeNote has no internet permission, so it cannot send anything anywhere — with or without a connection.</p>
+      </div>
+      <ul style="list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 24px">
+        <li style="flex: 1 1 300px; min-width: 0; display: flex; gap: 16px; padding: 24px; border: 1px solid #2c3b31; border-radius: 16px">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#85ad44" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 28px"><rect x="5" y="2" width="14" height="20" rx="3"></rect><path d="M11 18h2"></path></svg>
+          <div style="display: flex; flex-direction: column; gap: 6px">
+            <h3 style="margin: 0; font-size: 20px; font-weight: 700">Speech recognised on the device</h3>
+            <p style="margin: 0; font-size: 16px; line-height: 1.5; color: #c9d1c6">The recogniser runs inside the app. It is not the phone maker’s dictation and there is no server.</p>
+          </div>
+        </li>
+        <li style="flex: 1 1 300px; min-width: 0; display: flex; gap: 16px; padding: 24px; border: 1px solid #2c3b31; border-radius: 16px">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#85ad44" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 28px"><circle cx="12" cy="12" r="9"></circle><path d="M5.6 5.6l12.8 12.8"></path></svg>
+          <div style="display: flex; flex-direction: column; gap: 6px">
+            <h3 style="margin: 0; font-size: 20px; font-weight: 700">No account, no cloud, no tracking</h3>
+            <p style="margin: 0; font-size: 16px; line-height: 1.5; color: #c9d1c6">Nothing to sign up for. No analytics, no crash reporting, no advertising identifiers.</p>
+          </div>
+        </li>
+        <li style="flex: 1 1 300px; min-width: 0; display: flex; gap: 16px; padding: 24px; border: 1px solid #2c3b31; border-radius: 16px">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#85ad44" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 28px"><rect x="4" y="10" width="16" height="11" rx="2"></rect><path d="M8 10V7a4 4 0 0 1 8 0v3"></path></svg>
+          <div style="display: flex; flex-direction: column; gap: 6px">
+            <h3 style="margin: 0; font-size: 20px; font-weight: 700">Backups are yours</h3>
+            <p style="margin: 0; font-size: 16px; line-height: 1.5; color: #c9d1c6">Make an encrypted backup when you choose and keep it where you like. Only your passphrase opens it.</p>
+          </div>
+        </li>
+      </ul>
+      <a href="privacy.html" style="align-self: flex-start; color: #85ad44; font-size: 17px; font-weight: 700">Read the privacy policy</a>
+    </div>
+  </section>
+
+  <section id="more" style="width: 100%; box-sizing: border-box; padding: 88px 24px; background: #fbf9f3">
+    <div style="max-width: 1160px; margin: 0 auto; display: flex; flex-direction: column; gap: 88px">
+
+      <div style="display: flex; flex-direction: column; gap: 12px; max-width: 760px">
+        <p style="margin: 0; font-size: 15px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #38793a">What it gives you</p>
+        <h2 style="margin: 0; font-size: 44px; line-height: 1.1; font-weight: 700; letter-spacing: -0.02em">Say it once. Keep it for good.</h2>
+        <p style="margin: 0; font-size: 20px; line-height: 1.5; color: #4f5c55">Every sentence you speak becomes a record you can read back, compare and share. Nothing to type, nothing to file, nothing forgotten.</p>
+        <p style="margin: 0; font-size: 20px; line-height: 1.5; color: #4f5c55">It is your memory, with the dates filled in. Which day the headache started, what you ate before it, when you last changed the dose — it is all there, in your own words, at the time it happened.</p>
+      </div>
+
+      <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 40px 80px">
+        <div style="flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 18px">
+          <p style="margin: 0; font-size: 15px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #38793a">Timeline · Monday 2 November, as it was said</p>
+          <ol style="list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0">
+            <li style="display: flex; gap: 20px; padding: 14px 0; border-top: 1px solid #e4e0d4">
+              <time style="flex: 0 0 56px; font-size: 15px; font-weight: 700; color: #4f5c55; padding-top: 3px">09:00</time>
+              <p style="margin: 0; font-size: 19px; line-height: 1.4">“Ham and cheese omelette for breakfast.”</p>
+            </li>
+            <li style="display: flex; gap: 20px; padding: 14px 0; border-top: 1px solid #e4e0d4">
+              <time style="flex: 0 0 56px; font-size: 15px; font-weight: 700; color: #4f5c55; padding-top: 3px">10:00</time>
+              <p style="margin: 0; font-size: 19px; line-height: 1.4">“Constipation this morning.”</p>
+            </li>
+            <li style="display: flex; gap: 20px; padding: 14px 0; border-top: 1px solid #e4e0d4">
+              <time style="flex: 0 0 56px; font-size: 15px; font-weight: 700; color: #4f5c55; padding-top: 3px">15:37</time>
+              <p style="margin: 0; font-size: 19px; line-height: 1.4">“Had porridge and muesli and yogurt.”</p>
+            </li>
+            <li style="display: flex; gap: 20px; padding: 14px 0; border-top: 1px solid #e4e0d4; border-bottom: 1px solid #e4e0d4">
+              <time style="flex: 0 0 56px; font-size: 15px; font-weight: 700; color: #4f5c55; padding-top: 3px">15:39</time>
+              <p style="margin: 0; font-size: 19px; line-height: 1.4">“Blood pressure one seventeen over fifty six, pulse ninety five.”</p>
+            </li>
+          </ol>
+          <p style="margin: 0; font-size: 19px; line-height: 1.5; color: #4f5c55">Four sentences, said in passing. Each one became an entry at the time it happened, typed by nobody. Say “yesterday” or “at eight” and it lands there. Filter by medicines, symptoms, readings, food or activity; a day with nothing logged still shows.</p>
+        </div>
+        <div style="flex: 0 0 300px; box-sizing: border-box; padding: 10px; background: #ffffff; border: 1px solid #e4e0d4; border-radius: 30px; box-shadow: 0 24px 60px rgba(20,32,26,0.10)">
+          <img src="assets/timeline.jpg" alt="Timeline for Mon 2 Nov: blood pressure 117/56 and pulse 95 at 15:39, porridge and muesli and yogurt at 15:37, constipation at 10:00, ham and cheese omelette at 09:00" style="display: block; width: 100%; height: auto; border-radius: 22px">
+        </div>
+      </div>
+
+      <div style="display: flex; flex-wrap: wrap-reverse; align-items: center; gap: 40px 80px">
+        <div style="flex: 0 0 300px; box-sizing: border-box; padding: 10px; background: #ffffff; border: 1px solid #e4e0d4; border-radius: 30px; box-shadow: 0 24px 60px rgba(20,32,26,0.10)">
+          <img src="assets/group.jpg" alt="Confirm screen: morning meds group with micardis, levothyroxine, B12 and a supplement ticked, Save 4" style="display: block; width: 100%; height: auto; border-radius: 22px">
+        </div>
+        <div style="flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 18px">
+          <p style="margin: 0; font-size: 15px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #38793a">Medicines</p>
+          <h3 style="margin: 0; font-size: 40px; line-height: 1.1; font-weight: 700; letter-spacing: -0.02em">“Took my morning meds.” Four ticks.</h3>
+          <p style="margin: 0; font-size: 19px; line-height: 1.5; color: #4f5c55">Call a medicine what you call it — “the blue inhaler”, “my BP tablet” — and group the ones you take together. One sentence logs the lot; untick anything you skipped. A dose that differs from usual is flagged, not assumed. Did I take it? When? The question answers itself.</p>
+        </div>
+      </div>
+
+      <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 40px 80px">
+        <div style="flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 18px">
+          <p style="margin: 0; font-size: 15px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #38793a">Trends</p>
+          <h3 style="margin: 0; font-size: 40px; line-height: 1.1; font-weight: 700; letter-spacing: -0.02em">Does what you eat, or do, change how you feel?</h3>
+          <p style="margin: 0; font-size: 19px; line-height: 1.5; color: #4f5c55">Put a symptom or a reading beside anything else you log — a food, an activity, a medicine, your sleep — over 30 days or more, and see the days line up, or not. Headaches beside strawberries. Blood pressure beside the evening walk. It shows what you logged, side by side; it never tells you why. That conversation is for you and your doctor.</p>
+        </div>
+        <div style="flex: 0 0 300px; box-sizing: border-box; padding: 10px; background: #ffffff; border: 1px solid #e4e0d4; border-radius: 30px; box-shadow: 0 24px 60px rgba(20,32,26,0.10)">
+          <img src="assets/trends.jpg" alt="Trends: headache severity over 30 days against days strawberries were logged" style="display: block; width: 100%; height: auto; border-radius: 22px">
+        </div>
+      </div>
+
+      <div style="display: flex; flex-wrap: wrap-reverse; align-items: center; gap: 40px 80px">
+        <div style="flex: 0 0 340px; box-sizing: border-box; padding: 10px; background: #ffffff; border: 1px solid #e4e0d4; border-radius: 12px; box-shadow: 0 24px 60px rgba(20,32,26,0.10)">
+          <img src="assets/report.jpg" alt="Summary report, page 1: Health log summary, self-recorded, 13 Oct to 11 Nov 2026; medicines with doses logged; readings with low, median, high and last; blood pressure over the last 30 days with activity marked" style="display: block; width: 100%; height: auto; border-radius: 6px">
+        </div>
+        <div style="flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 18px">
+          <p style="margin: 0; font-size: 15px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #38793a">Summary report</p>
+          <h3 style="margin: 0; font-size: 40px; line-height: 1.1; font-weight: 700; letter-spacing: -0.02em">See the big picture. Share it if you choose.</h3>
+          <p style="margin: 0; font-size: 19px; line-height: 1.5; color: #4f5c55">Pick a period and QVeeNote writes a clean PDF: every medicine with how often it was taken, every reading with its low, high and last, the symptoms you tracked, and a space for the questions you want to raise. Read it yourself to see the month at a glance, or bring it to an appointment so the conversation starts from what happened rather than what you can remember. It leaves your phone only when you share the file.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="join" style="width: 100%; box-sizing: border-box; padding: 88px 24px; background: #ffffff; border-top: 1px solid #e4e0d4">
+    <div style="max-width: 1160px; margin: 0 auto; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 28px 48px">
+      <div style="flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 12px">
+        <p style="margin: 0; font-size: 15px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #38793a">Early access</p>
+        <h2 style="margin: 0; font-size: 40px; line-height: 1.1; font-weight: 700; letter-spacing: -0.02em">Join the beta</h2>
+        <p style="margin: 0; font-size: 18px; line-height: 1.5; color: #4f5c55">QVeeNote is in closed beta on Google Play in Ireland, the UK, Australia, New Zealand, Canada and the United States. Three steps, about five minutes.</p>
+      </div>
+      <a href="beta.html" style="display: inline-flex; align-items: center; min-height: 56px; padding: 0 30px; border-radius: 999px; background: #38793a; color: #ffffff; text-decoration: none; font-size: 18px; font-weight: 700">How to join</a>
+    </div>
+  </section>
+
+  <footer style="width: 100%; box-sizing: border-box; padding: 28px 24px; border-top: 1px solid #e4e0d4">
+    <div style="max-width: 1160px; margin: 0 auto; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 32px; font-size: 15px; color: #4f5c55">
+      <span>© 2026 Arboreal Technologies Ltd, Dublin</span>
+      <div style="display: flex; flex-wrap: wrap; gap: 24px">
+        <a href="privacy.html" style="color: #4f5c55; text-decoration: none">Privacy</a>
+        <a href="support.html" style="color: #4f5c55; text-decoration: none">Support</a>
+        <a href="beta.html" style="color: #4f5c55; text-decoration: none">Beta</a>
+        <a href="mailto:hello@qvnote.com" style="color: #4f5c55; text-decoration: none">hello@qvnote.com</a>
+      </div>
+    </div>
+  </footer>
+
+</div>
+</body>
+</html>
